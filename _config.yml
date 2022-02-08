@@ -222,7 +222,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 15 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: KR # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -292,7 +292,6 @@ defaults:
       comments: # true
       share: true
       related: true
-  
   # _pages
   - scope:
       path: "_pages"
@@ -300,3 +299,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# GitHub API authentication warning
+github: [metadata]
