@@ -12,7 +12,7 @@ modified_date_at: 2022-02-18T17:08:00
 * Model-View-Controller (MVC) 패턴은 세 가지 타입의 object로 나누어져 있습니다.  
 * 세 가지 object는 다음 그림과 같이 결합되어 있습니다.  
 <br>
-<img src="/assets/images/design_pattern/mvc_pattern/MVC_pattern_black.png" width = "60%" height = "60%">
+<center><img src="/assets/images/design_pattern/mvc_pattern/MVC_pattern_black.png"></center>
 
 #### 1. Model
 * `Model`은 앱의 데이터를 포함하고 있습니다.  
