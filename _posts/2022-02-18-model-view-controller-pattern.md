@@ -72,6 +72,6 @@ modified_date_at: 2022-02-18T17:08:00
   * 모든 object들이 **model**, **view**, **controller**로 깔끔하게 나누어 떨어지지는 않습니다.  
   * 따라서, MVC 패턴과 다른 패턴들을 함께 활용하는 것을 권장합니다.  
 
-## Reference  
+## References  
 * Design Patterns by Tutorials (raywenderlich)  
 * Github 예제 [link](https://github.com/seungchann/fundamental-design-pattern-example/tree/main) (commit: 79ec05e)  
