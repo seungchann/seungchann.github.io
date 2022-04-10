@@ -6,7 +6,7 @@ categories:
 tags:
   - Design Pattern
   - iOS
-modified_date_at: 2022-04-11T00:25:00
+modified_date_at: 2022-04-10T00:25:00
 ---
 ## Strategy 패턴이란?  
 * `Strategy` 패턴은 런타임에서 set되거나 switch될 수 있는, interchangeable한 object들의 family를 정의합니다.  
@@ -16,9 +16,11 @@ modified_date_at: 2022-04-11T00:25:00
 
 #### 1. `strategy`를 사용하는 object  
 * 대부분의 ios 앱 개발에서 strategy 패턴이 사용될 경우, view controller가 이러한 object입니다.  
-* 하지만, interchangeable behavior가 필요하다면 모든 종류의 object들이 (기술적으로는) 이러한 object가 될 수 있습니다.
+* 하지만, interchangeable behavior가 필요하다면 모든 종류의 object들이 (기술적으로는) 이러한 object가 될 수 있습니다.  
+
 #### 2. `strategy protocol`  
 * `Strategy protocol`은 모든 `strategy`가 반드시 구현해야 할 메서드들을 정의하고 있습니다.  
+
 #### 3. `strategies`  
 * `Strategy`란 `strategy 프로토콜`을 준수하는 object 입니다.  
 
